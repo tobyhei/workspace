@@ -1,0 +1,44 @@
+{
+  "dash": {
+    "read_only": false,
+    "graphs": [
+      {
+        "definition": {
+          "viz": "timeseries",
+          "requests": [
+            {
+              "q": "avg:system.load.1{*}",
+              "style": {
+                "width": "normal",
+                "palette": "dog_classic",
+                "type": "solid"
+              },
+              "type": "line",
+              "conditional_formats": []
+            }
+          ],
+          "autoscale": true
+        },
+        "title": "Avg of system.load.1 over *"
+      }
+    ],
+    "description": "created by toby.hei@gmail.com",
+    "title": "Tobias's Timeboard 14 Nov 2018 21:46",
+    "created": "2018-11-14T10:46:22.415750+00:00",
+    "id": 985873,
+    "created_by": {
+      "disabled": false,
+      "handle": "toby.hei@gmail.com",
+      "name": "Tobias Heighway",
+      "is_admin": true,
+      "role": null,
+      "access_role": "adm",
+      "verified": true,
+      "email": "toby.hei@gmail.com",
+      "icon": "https://secure.gravatar.com/avatar/cab31e40d026c5489c83b297a0aece2a?s=48&d=retro"
+    },
+    "modified": "2018-11-14T10:46:43.409489+00:00"
+  },
+  "url": "/dash/985873/tobiass-timeboard-14-nov-2018-2146",
+  "resource": "/api/v1/dash/985873"
+}
